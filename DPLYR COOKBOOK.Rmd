@@ -1,0 +1,31 @@
+---
+title: "DPLYR"
+author: "Jarred Robidoux"
+date: "2/15/2023"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tinytex)
+library(plyr)
+```
+
+# __dplyr__
+dplyr is a grammar of data manipulation, providing a consistent set of verbs
+that help you solve the most common data manipulation challenges. 
+
+These are the main five functions within dplyr
+
+**mutate()** adds new variables that are function of existing variables
+
+**select()** picks variables based on their names
+
+**filter()** picks cases based on their values
+
+**summarise()** reduces multiple values down to a single summary
+
+**arrange()** changes the ordering of rows 
+
+
+
